@@ -3,17 +3,17 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        echo 'buiding the file'
+        echo 'buiding the file!'
       }
     }
     stage("test") {
       steps {
-        echo 'testing the file'
+        echo 'testing the file!!'
       }
     }
     stage("deploy") {
       steps {
-        echo 'delpoying the file'
+        echo 'delpoying the file!!!'
       }
     }
   }
