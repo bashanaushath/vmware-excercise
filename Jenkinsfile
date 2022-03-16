@@ -6,7 +6,7 @@ pipeline {
         echo 'buiding the file'
       }
     }
-    statge("test") {
+    stage("test") {
       steps {
         echo 'testing the file'
       }
