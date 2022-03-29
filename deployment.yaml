@@ -1,6 +1,3 @@
-deployment.yaml file in the repository which defines how the built container should be deployed on Kubernetes.
-Note: Remember to change the values inside <<>> in the snippets below, according to your credentials and configurations.
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
